@@ -154,7 +154,30 @@
     line-height: 1rem;
   }
 
+  .port-hole {
+    font-size: 4rem;
+  }
+
   .active {
     font-size: 0.9rem;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .container {
+    height: 20rem;
+    width: 20rem;
+  }
+
+  .port-hole {
+    font-size: 3rem;
+  }
+
+  .port-hole-text {
+    line-height: 0.5rem;
+  }
+
+  .active {
+    font-size: 0.5rem;
   }
 }
